@@ -1,0 +1,134 @@
+# -----------------------------
+# Node.js / Next.js
+# -----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.next/
+out/
+dist/
+build/
+.cache/
+coverage/
+*.tsbuildinfo
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# -----------------------------
+# Python (ML backend)
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+*.manifest
+*.spec
+*.log
+.pytest_cache/
+.tox/
+.mypy_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+venv/
+ENV/
+env/
+venv.bak/
+
+# Model artifacts (optional but recommended)
+models/
+checkpoints/
+*.pt
+*.pth
+*.h5
+*.joblib
+*.pkl
+*.onnx
+
+# -----------------------------
+# Docker / Container files
+# -----------------------------
+# Ignore everything Docker generates
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
+.docker/
+docker-data/
+tmp/
+
+# -----------------------------
+# Databases / Redis / Postgres
+# -----------------------------
+# Local DB data volumes (never commit)
+data/
+pgdata/
+redis-data/
+*.db
+*.sqlite3
+
+# -----------------------------
+# OS / IDE / Miscellaneous
+# -----------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -----------------------------
+# Logs / Temp / Uploads
+# -----------------------------
+logs/
+*.log
+*.out
+tmp/
+temp/
+uploads/
+media/
+__temp__/
+
+# -----------------------------
+# Other service-specific junk
+# -----------------------------
+# Jupyter notebooks' autosaves
+*.ipynb_checkpoints
+# Redis dump
+dump.rdb
+# PostgreSQL dump
+*.sql
+*.dump
+
+# -----------------------------
+# Local secrets / credentials
+# -----------------------------
+*.pem
+*.key
+*.crt
+*.csr
+.secrets/
+.credentials/
